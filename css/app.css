@@ -1,0 +1,55 @@
+body {
+  padding-top: 60px;
+}
+
+.date {
+  font-size: 11px;
+  color: #aaa;
+}
+
+.author {
+  color: #aaa;
+}
+
+.title {
+  padding: 5px 0 15px 0;
+  display: block;
+  font-size: 24px;
+}
+
+.article, .comment {
+  padding: 15px 0;
+  border-top: 1px solid #e8e8e8;
+}
+
+.main-head {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn {
+  outline: none !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+a.tag {
+  margin: 0 10px 0 0;
+}
+
+.error {
+  color: #FF2602;
+}
+
+.footer {
+margin-top: 45px;
+padding: 35px 0 36px;
+border-top: 1px solid #e5e5e5;
+}
+.space-list .space-list-item{background:white;border-bottom:1px solid #f2f2f2;color:#222; list-style:none}.space-list .space-list-item a{color:#222}.space-list .space-list-item .display-picture-space-cover{height:278px}@media(min-width:770px){.space-list .space-list-item .display-picture-space-cover{height:278px}}@media(min-width:871px){.space-list .space-list-item .display-picture-space-cover{height:315px}}.space-list .space-list-item .space-list-item-content{display:table;table-layout:fixed;width:100%;padding:20px;text-decoration:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.space-list .space-list-item .space-list-item-content .column-picture{display:table-cell;width:100px;vertical-align:top}.space-list .space-list-item .space-list-item-content .column-picture .display-picture{width:100px;height:100px}.space-list .space-list-item .space-list-item-content .column-details{display:table-cell;width:100%;vertical-align:top;padding:0 20px}.space-list .space-list-item .space-list-item-content .column-details .display-name{font-size:30px;font-weight:bold;line-height:1.2em}.space-list .space-list-item .space-list-item-content .column-details .featuring{height:17px;margin:5px 0 12px 0;color:#666}.space-list .space-list-item .space-list-item-content .column-details .playlist-item{position:relative;padding-left:40px;line-height:30px;font-size:10px;font-weight:bold;text-transform:uppercase;color:#999}.space-list .space-list-item .space-list-item-content .column-details .playlist-item .display-picture{position:absolute;top:0;left:0;width:30px;height:30px}.space-list .space-list-item .space-list-item-content .column-membership{display:table-cell;width:135px;vertical-align:top;font-size:16px;line-height:1.4em;color:#999}.space-list .space-list-item .space-list-item-content .column-membership .members-count{overflow:hidden;height:20px}.space-list .space-list-item .space-list-item-content .column-membership .members-count .live-count,.space-list .space-list-item .space-list-item-content .column-membership .members-count .total-count{-webkit-transition:all 400ms;-moz-transition:all 400ms;-o-transition:all 400ms;transition:all 400ms}.space-list .space-list-item .space-list-item-content .column-membership .max-count{height:10px;margin:5px 0 35px 0;background-color:#e5e5e5}.space-list .space-list-item .space-list-item-content .column-membership .max-count .meter{height:100%;background:#0c6;-webkit-transition:width 400ms;-moz-transition:width 400ms;-o-transition:width 400ms;transition:width 400ms}.space-list .space-list-item .space-list-item-content .column-membership .members{margin-left:-5px}.space-list .space-list-item .space-list-item-content .column-membership .members .member{float:left;margin-left:5px}.space-list .space-list-item .space-list-item-content .column-membership .members .member .display-picture{width:30px;height:30px}.space-list .space-list-item .space-list-item-content .column-membership .members::before,.space-list .space-list-item .space-list-item-content .column-membership .members::after{display:table;content:"";line-height:0}.space-list .space-list-item .space-list-item-content .column-membership .members::after{clear:both}.space-list .space-list-item .space-list-item-content:hover{background-color:#f9fafa}.space-list .space-list-item .space-list-item-content:hover .column-membership .live-count{margin-top:-20px}.space-list .space-list-item.banner{background-color:#333;color:white}.space-list .space-list-item.banner a{color:white}.space-list .space-list-item.banner .space-list-item-content .featuring{color:#999}.space-list .space-list-item.banner .space-list-item-content .playlist-item{color:#666}.space-list .space-list-item.banner .space-list-item-content .max-count{background-color:#484848}.space-list .space-list-item.banner .space-list-item-content:hover{background-color:#333}div.pages .page.page-space{right:91px}
