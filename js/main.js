@@ -10,14 +10,12 @@ window.App = soundc = {
 	Views: {}
 };
 SC.initialize({      
-		client_id: '955a528f998da6dd6a40b57db962ab06'
+		client_id: 'ee8e164717cb8a3495919a9ee68e91fc'
 	});
 
 window.template = function(id) {
 	return _.template( $('#' + id).html() );
 };
-
-
 
 App.Models.Track = Backbone.Model.extend({
 	validate: function(attrs) {
@@ -32,12 +30,6 @@ App.Models.Track = Backbone.Model.extend({
 
 App.Collections.Tracks = Backbone.Collection.extend({
 	model: App.Models.Track	
-	
-	// Homework #1
-	// What if you wanted to sort the Tracks, according to
-	// priority - from most to least (1-5 scale).
-	// Use Backbone's comparator method to add this functionality
-	// http://backbonejs.org/#Collection-comparator
 });
 
 App.Views.Tracks = Backbone.View.extend({
@@ -50,7 +42,6 @@ App.Views.Tracks = Backbone.View.extend({
 			if(error) console.log('ERROR: ', error);
 			_.each(tracks, function(value, index){
                 self.collection.add(new App.Models.Track(value));
-               //console.log( self.collection);
             });
         	self.collection.on("sync", this.render, this);
         	self.render();
@@ -95,18 +86,12 @@ App.Views.Track = Backbone.View.extend({
 	render: function() {
 		
 		var template = this.template( this.model.toJSON() );
-	console.log(template);
-
 		this.$el.html(template);
-		console.log(this.$el.html(template));
-
 		return this;
 	}
 });
 
 var trackCollection = new App.Collections.Tracks();
-		//var model = new App.Models.Track();
-		//console.log(model);
         soundc.app = app = new App.Views.Tracks({collection: trackCollection});
     $('.tracks').html(app.render().el);
 
