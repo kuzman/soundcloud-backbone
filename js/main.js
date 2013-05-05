@@ -1,9 +1,6 @@
 (function() {
 var soundc
-      // a larger view class that manages transitions
-      // and all the other subvies
-      // this is an exposed instance of our app
-      , app;
+    , app;
 window.App = soundc = {
 	Models: {},
 	Collections: {},
@@ -68,19 +65,6 @@ App.Views.Track = Backbone.View.extend({
 	initialize: function() {
 		
                 
-	},
-
-	throbber: function(){
-            $(this.el).append('<div>LOADING ...</div>');
-            return this;  
-        },
-      
-	destroy: function() {
-		this.model.destroy();
-	},
-
-	remove: function() {
-		this.$el.remove();
 	},
 
 	render: function() {
